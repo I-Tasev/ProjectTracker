@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace ProjectTracker.Infrastructure.Data
+namespace ProjectTracker.Infrastructure.Data.Models
 {
-    public class ApplicationUser : IdentityUser<string>
+    public class ApplicationUser : IdentityUser
     {
         public string? FirstName { get; set; }
 
