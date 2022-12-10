@@ -5,9 +5,14 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectTracker", "ProjectTracker\ProjectTracker.csproj", "{BED8825F-13FD-41CB-932D-2EC10AC3C345}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTracker.Infrastructure", "ProjectTracker.Infrastructure\ProjectTracker.Infrastructure.csproj", "{5299E535-64D0-475C-B2F4-FBC89AFBACF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectTracker.Infrastructure", "ProjectTracker.Infrastructure\ProjectTracker.Infrastructure.csproj", "{5299E535-64D0-475C-B2F4-FBC89AFBACF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTracker.Core", "ProjectTracker.Core\ProjectTracker.Core.csproj", "{F456A80B-6D2C-4A5F-BC2D-F2B78488BD5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectTracker.Core", "ProjectTracker.Core\ProjectTracker.Core.csproj", "{F456A80B-6D2C-4A5F-BC2D-F2B78488BD5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D62BF3A0-34AB-4C51-8E3C-958ED7253FC1}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
